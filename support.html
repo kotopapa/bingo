@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サポート | ビンゴチェッカー</title>
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    line-height: 1.8;
+    background: #ffffff;
+    color: #1c1c1e;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #0d0d0f;
+      color: #f2f2f7;
+    }
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header {
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin: 0 0 8px;
+  }
+  .subtitle {
+    font-size: 0.9rem;
+    opacity: 0.65;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin: 36px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(128,128,128,0.3);
+  }
+  p, li {
+    font-size: 0.98rem;
+  }
+  ul {
+    padding-left: 1.3em;
+  }
+  li + li {
+    margin-top: 6px;
+  }
+  .card {
+    background: rgba(127,127,127,0.08);
+    border: 1px solid rgba(127,127,127,0.18);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 16px 0;
+  }
+  .faq {
+    background: rgba(127,127,127,0.06);
+    border: 1px solid rgba(127,127,127,0.16);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 14px 0;
+  }
+  .faq h3 {
+    font-size: 1rem;
+    margin: 0 0 8px;
+    display: flex;
+    gap: 8px;
+  }
+  .faq h3 .q {
+    flex: none;
+    font-weight: 700;
+    color: #007aff;
+  }
+  @media (prefers-color-scheme: dark) {
+    .faq h3 .q { color: #0a84ff; }
+  }
+  .faq p {
+    margin: 0;
+  }
+  a {
+    color: #007aff;
+  }
+  @media (prefers-color-scheme: dark) {
+    a { color: #0a84ff; }
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 0.92rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 6px;
+    border-bottom: 1px solid rgba(128,128,128,0.25);
+    vertical-align: top;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(128,128,128,0.3);
+    font-size: 0.85rem;
+    opacity: 0.65;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>サポート</h1>
+    <p class="subtitle">ビンゴチェッカー(Bundle ID: com.kotopapa.bingochecker)</p>
+  </header>
+
+  <h2>アプリについて</h2>
+  <p>
+    「ビンゴチェッカー」は、パーティ・忘年会・イベントの幹事(主催者)向けのiOSアプリです。
+    ビンゴの抽選番号(1〜75)を手動で記録・履歴管理できるほか、参加者の紙のビンゴカードをカメラの
+    ライブ映像でスキャンし、端末内のAIで数字を認識して記録済みの抽選番号と自動照合、ビンゴ/リーチを
+    その場で判定します。複数枚のカードを連続でチェックできるので、当日の進行をスムーズに進められます。
+  </p>
+  <div class="card">
+    <p style="margin:0;">
+      主な機能:①抽選番号タブ(番号の記録・履歴・取り消し)、②カードチェックタブ(カメラでカードを
+      スキャンして自動判定)、③プロ版App内課金(¥300)でルーレット抽選機能を解放。
+    </p>
+  </div>
+
+  <h2>よくある質問</h2>
+
+  <div class="faq">
+    <h3><span class="q">Q.</span> カードチェックでカードがなかなか認識されません。コツはありますか?</h3>
+    <p>
+      以下の点をお試しください。
+    </p>
+    <ul>
+      <li>できるだけ明るい場所で、影が数字にかからないようにしてください。</li>
+      <li>画面のガイド枠にカード全体(5x5の数字部分)がきちんと収まるように、カメラをまっすぐカードに向けてください。</li>
+      <li>カードが傾いていたり、反射・光沢で数字が見えにくい場合は角度を調整してください。</li>
+      <li>それでも一部のマスが誤認識された場合は、判定結果画面でそのマスをタップすると手動で数字を修正できます。</li>
+    </ul>
+  </div>
+
+  <div class="faq">
+    <h3><span class="q">Q.</span> 機種変更後、購入した「プロ版」を復元するにはどうすればいいですか?</h3>
+    <p>
+      「番号を抽選する」ボタンから開く購入画面(ペイウォール)にある「購入を復元」ボタンをタップしてください。
+      購入時と同じApple IDでサインインしていれば、追加のお支払いなしで機能が復元されます。
+    </p>
+  </div>
+
+  <div class="faq">
+    <h3><span class="q">Q.</span> 抽選番号の記録をリセットしたいです。</h3>
+    <p>
+      「抽選番号」タブ内の全リセット機能から記録をすべて削除できます(確認ダイアログが表示されます)。
+      次のイベントで新しく抽選を始める際にご利用ください。直前の1件だけを取り消したい場合は「直前の記録を取り消す」
+      ボタンをお使いください。
+    </p>
+  </div>
+
+  <div class="faq">
+    <h3><span class="q">Q.</span> どんなビンゴカードに対応していますか?</h3>
+    <p>
+      縦横5x5マス、中央がFREE(空欄)の標準的な1〜75のビンゴカードに対応しています。
+      B列(1〜15)・I列(16〜30)・N列(31〜45)・G列(46〜60)・O列(61〜75)のレイアウトを前提としています。
+      それ以外の特殊なレイアウトのカードは正しく認識できない場合があります。
+    </p>
+  </div>
+
+  <div class="faq">
+    <h3><span class="q">Q.</span> シミュレータで動作確認したいのですが、カメラが使えません。</h3>
+    <p>
+      iOSシミュレータはカメラ機能を利用できないため、カードチェック機能はサンプルカードを使った
+      確認用の表示に切り替わります。実際のカード読み取り精度は、iPhone実機でご確認ください。
+    </p>
+  </div>
+
+  <h2>お問い合わせ</h2>
+  <p>
+    上記で解決しない場合や、不具合のご報告・ご要望は、下記の連絡先までお気軽にご連絡ください。
+  </p>
+  <table>
+    <tr><th>連絡先メール</th><td><a href="mailto:t.fujiwara.pvt.0111@gmail.com">t.fujiwara.pvt.0111@gmail.com</a></td></tr>
+  </table>
+
+  <footer>
+    <a href="./privacy-policy.html">プライバシーポリシーはこちら</a>
+  </footer>
+</div>
+</body>
+</html>
