@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BingoChecker - Sample Bingo Card for App Review</title>
+<style>
+  body {
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    margin: 0; padding: 24px; background: #fff; color: #111;
+    display: flex; flex-direction: column; align-items: center;
+  }
+  h1 { font-size: 18px; margin: 0 0 4px; }
+  p.note { font-size: 13px; color: #555; margin: 0 0 20px; max-width: 480px; text-align: center; }
+  table {
+    border-collapse: collapse; background: #fff;
+  }
+  th, td {
+    border: 2px solid #111;
+    width: 84px; height: 84px;
+    text-align: center; vertical-align: middle;
+  }
+  th { font-size: 40px; height: 60px; background: #f2f2f2; }
+  td { font-size: 44px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  td.free { font-size: 24px; font-weight: 800; letter-spacing: 1px; background: #f2f2f2; }
+  @media print {
+    p.note, h1 { display: none; }
+    body { padding: 0; }
+    th, td { width: 30mm; height: 30mm; }
+    th { height: 20mm; }
+  }
+</style>
+</head>
+<body>
+  <h1>Sample Bingo Card (for App Review testing)</h1>
+  <p class="note">
+    Print this page (or display it full-screen on another device) and point the app's
+    "カードチェック (Card Check)" tab camera at the 5x5 number grid below.
+    All numbers follow the standard ranges: B=1-15, I=16-30, N=31-45, G=46-60, O=61-75.
+  </p>
+  <table>
+    <tr><th>B</th><th>I</th><th>N</th><th>G</th><th>O</th></tr>
+    <tr><td>3</td><td>17</td><td>33</td><td>48</td><td>63</td></tr>
+    <tr><td>9</td><td>22</td><td>39</td><td>52</td><td>68</td></tr>
+    <tr><td>12</td><td>28</td><td class="free">FREE</td><td>57</td><td>71</td></tr>
+    <tr><td>7</td><td>19</td><td>42</td><td>60</td><td>74</td></tr>
+    <tr><td>14</td><td>25</td><td>36</td><td>46</td><td>66</td></tr>
+  </table>
+</body>
+</html>
